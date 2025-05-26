@@ -1,4 +1,5 @@
 # Zoe Walker
+
 Senior Product Manager | Digital Innovation Leader
 
 📍 Sydney, NSW 2000  
@@ -16,8 +17,8 @@ Accomplished Senior Product Manager with 10+ years of experience leading cross-f
 
 ## CORE COMPETENCIES
 
-• Product Strategy  • Agile Product Development  • User Research & UX  • Go-to-Market Planning  • Stakeholder Management
-• Data Analysis & Metrics  • Roadmap Development  • Team Leadership  • SaaS & E-commerce Platforms
+• Product Strategy • Agile Product Development • User Research & UX • Go-to-Market Planning • Stakeholder Management
+• Data Analysis & Metrics • Roadmap Development • Team Leadership • SaaS & E-commerce Platforms
 
 ---
 
@@ -25,6 +26,7 @@ Accomplished Senior Product Manager with 10+ years of experience leading cross-f
 
 **Atlassian** — Senior Product Manager  
 _March 2020 – Present, Sydney, NSW_
+
 - Led the end-to-end development and launch of a new SaaS collaboration tool, achieving 50,000+ users in the first year and $8M in ARR.
 - Managed a team of 7 product managers and designers, setting KPIs for user engagement, retention, and NPS.
 - Conducted user research and usability testing, driving a 30% improvement in product satisfaction scores.
@@ -33,6 +35,7 @@ _March 2020 – Present, Sydney, NSW_
 
 **Canva** — Product Manager  
 _July 2015 – February 2020, Sydney, NSW_
+
 - Owned the roadmap for Canva’s mobile app, growing MAUs from 200K to 2M in three years.
 - Prioritized features based on user feedback and analytics, increasing retention by 18%.
 - Coordinated with UX and engineering to deliver seamless user experiences.
@@ -40,12 +43,14 @@ _July 2015 – February 2020, Sydney, NSW_
 
 **REA Group** — Associate Product Manager  
 _January 2012 – June 2015, Melbourne, VIC_
+
 - Supported product development for real estate search and analytics tools.
 - Conducted market research and competitor analysis to inform product strategy.
 - Assisted in the rollout of new features and tracked key metrics.
 
 **Coles Group** — Business Analyst  
 _January 2010 – December 2011, Melbourne, VIC_
+
 - Gathered requirements and supported product managers in the launch of new retail systems.
 
 ---
