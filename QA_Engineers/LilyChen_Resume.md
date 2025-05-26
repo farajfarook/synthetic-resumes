@@ -1,4 +1,5 @@
 # Lily Chen
+
 Senior QA Engineer | Automation & Agile Testing Leader
 
 📍 Sydney, NSW 2000  
@@ -16,8 +17,8 @@ Results-driven Senior QA Engineer with 9+ years of experience in software testin
 
 ## CORE COMPETENCIES
 
-• Test Automation (Selenium, Cypress, Playwright)  • Test Strategy & Planning  • Agile & Scrum  • API Testing (Postman, REST Assured)
-• CI/CD Integration  • Defect Management (JIRA)  • Team Leadership  • Performance & Security Testing
+• Test Automation (Selenium, Cypress, Playwright) • Test Strategy & Planning • Agile & Scrum • API Testing (Postman, REST Assured)
+• CI/CD Integration • Defect Management (JIRA) • Team Leadership • Performance & Security Testing
 
 ---
 
@@ -25,6 +26,7 @@ Results-driven Senior QA Engineer with 9+ years of experience in software testin
 
 **Atlassian** — Senior QA Engineer  
 _March 2020 – Present, Sydney, NSW_
+
 - Led QA automation for Atlassian’s flagship SaaS products, reducing regression defects by 40% and accelerating release cycles by 30%.
 - Designed and implemented Selenium and Cypress automation frameworks, achieving 90% test coverage.
 - Collaborated with product, development, and DevOps teams to integrate automated tests into CI/CD pipelines.
@@ -33,6 +35,7 @@ _March 2020 – Present, Sydney, NSW_
 
 **Canva** — QA Engineer  
 _July 2015 – February 2020, Sydney, NSW_
+
 - Developed and executed test plans for web and mobile applications.
 - Automated regression and API tests using Postman and REST Assured.
 - Participated in agile ceremonies and contributed to sprint planning.
@@ -40,11 +43,13 @@ _July 2015 – February 2020, Sydney, NSW_
 
 **REA Group** — Junior QA Engineer  
 _January 2012 – June 2015, Melbourne, VIC_
+
 - Executed manual and automated tests for real estate web applications.
 - Assisted in the rollout of new automation tools and processes.
 
 **Coles Group** — IT Support Analyst  
 _January 2010 – December 2011, Melbourne, VIC_
+
 - Provided technical support and assisted with QA for internal systems.
 
 ---

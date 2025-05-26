@@ -6,12 +6,12 @@ Perth, WA 6000
 javier.fernandez@email.com.au  
 linkedin.com/in/javierfernandezau
 
-PROFILE
--------
+## PROFILE
+
 IT support analyst with 2 years of experience in helpdesk and basic QA support. Skilled at troubleshooting, user support, and maintaining IT documentation. Eager to develop a career in QA engineering. Limited experience with test automation or agile teams.
 
-KEY SKILLS
-----------
+## KEY SKILLS
+
 • IT Support  
 • Basic QA Support  
 • Troubleshooting  
@@ -19,37 +19,38 @@ KEY SKILLS
 • Documentation  
 • Communication
 
-PROFESSIONAL EXPERIENCE
------------------------
+## PROFESSIONAL EXPERIENCE
 
 **Harvey Norman** — IT Support Analyst  
 _March 2023 – Present, Perth, WA_
+
 - Provide technical support for store staff, including troubleshooting hardware, software, and QA-related issues.
 - Assist with basic QA support and documentation for new system rollouts.
 - Document support procedures and common issues for internal knowledge base.
 
 **Woolworths** — IT Helpdesk Assistant  
 _January 2022 – February 2023, Perth, WA_
+
 - Responded to user support requests for retail systems and QA tools.
 - Logged incidents and escalated complex issues to senior IT staff.
 - Assisted with basic user training on new software tools.
 
-EDUCATION
----------
+## EDUCATION
+
 • Certificate IV in Information Technology — TAFE WA, 2021
 • High School Certificate — Perth Modern School, 2020
 
-TECHNICAL SKILLS
-----------------
+## TECHNICAL SKILLS
+
 • QA: JIRA (Basic)  
 • IT Support: Windows, Office 365  
 • Documentation: Google Docs
 
-ACHIEVEMENTS
-------------
+## ACHIEVEMENTS
+
 • Maintained a 97% user satisfaction score at Harvey Norman (2023)  
 • Developed QA support documentation for Harvey Norman’s IT team
 
-REFERENCES
-----------
+## REFERENCES
+
 Available upon request
