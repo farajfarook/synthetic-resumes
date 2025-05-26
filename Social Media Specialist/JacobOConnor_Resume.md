@@ -5,11 +5,13 @@
 ---
 
 ## Profile
+
 Creative and results-driven Social Media Specialist with 3 years of experience managing brand presence and campaigns for Australian retail and lifestyle brands. Skilled in content creation, analytics, and community engagement. Strong collaborator with a passion for digital storytelling and brand building.
 
 ---
 
 ## Key Skills
+
 - Social Media Strategy
 - Content Creation & Scheduling
 - Analytics & Reporting (Hootsuite, Buffer)
@@ -22,42 +24,51 @@ Creative and results-driven Social Media Specialist with 3 years of experience m
 
 ## Experience
 
-### Social Media Specialist  
+### Social Media Specialist
+
 **Sunshine Activewear, Brisbane, QLD**  
-*Mar 2021 – Present*
+_Mar 2021 – Present_
+
 - Developed and implemented social media strategies, increasing Instagram engagement by 35% and Facebook followers by 25%.
 - Created and scheduled content across Facebook, Instagram, and Twitter, maintaining a consistent brand voice.
 - Managed paid social campaigns, optimizing for reach and engagement.
 - Monitored analytics and provided monthly performance reports to management.
 - Coordinated with marketing and design teams for campaign launches.
 
-### Social Media Coordinator  
+### Social Media Coordinator
+
 **EcoBrew, Brisbane, QLD**  
-*Feb 2019 – Feb 2021*
+_Feb 2019 – Feb 2021_
+
 - Managed daily posting and audience engagement across social platforms.
 - Assisted with influencer partnerships and user-generated content campaigns.
 - Tracked and analyzed social media metrics to inform content strategy.
 
-### Marketing Intern  
+### Marketing Intern
+
 **Brisbane Events Co., Brisbane, QLD**  
-*Jan 2018 – Jan 2019*
+_Jan 2018 – Jan 2019_
+
 - Supported social media content creation and scheduling.
 - Conducted research on social media trends and competitor activity.
 
 ---
 
 ## Education
+
 **Bachelor of Marketing**  
 Queensland University of Technology, 2018
 
 ---
 
 ## Certifications
+
 - Hootsuite Platform Certification
 
 ---
 
 ## Technical Skills
+
 - Hootsuite, Buffer
 - Canva
 - Facebook Ads Manager
@@ -66,8 +77,9 @@ Queensland University of Technology, 2018
 ---
 
 ## References
+
 Available upon request.
 
 ---
 
-*Australian, Male, Irish-Australian heritage*
+_Australian, Male, Irish-Australian heritage_
