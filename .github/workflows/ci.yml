@@ -1,0 +1,152 @@
+name: Convert to PDF and Release
+
+on:
+  push:
+    branches: [ main ] # Only run on pushes to main
+
+jobs:
+  build_and_release:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write # Required for creating a release and uploading assets
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v3
+
+    - name: Install Pandoc, LaTeX, and wkhtmltopdf
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y pandoc texlive-latex-base texlive-fonts-recommended texlive-latex-extra texlive-xetex librsvg2-bin wkhtmltopdf
+
+    - name: Create PDF output directory
+      run: mkdir -p release_pdfs
+
+    - name: Convert Markdown to PDF
+      id: convert_md_to_pdf
+      run: |
+        echo "Starting Markdown to PDF conversion..."
+        SUCCESS_COUNT=0
+        FAIL_COUNT=0
+        FAILED_FILES_LIST="" # Store failed files as a newline-separated string for clarity
+
+        # Find all .md files, excluding .git, .github, and the release_pdfs directory itself
+        find . -type d \( -path ./release_pdfs -o -path ./.git -o -path ./.github \) -prune -o -type f -name "*.md" -print0 | while IFS= read -r -d $'\0' md_file; do
+          # Remove leading ./ if present for cleaner paths
+          clean_md_file="${md_file#./}"
+          
+          dir_name=$(dirname "$clean_md_file")
+          base_name=$(basename "$clean_md_file" .md)
+          
+          # Determine output path, handling files in root vs subdirectories
+          if [ "$dir_name" == "." ]; then
+            # Files in the root directory (e.g., README.md)
+            target_dir="release_pdfs"
+            pdf_path="$target_dir/$base_name.pdf"
+          else
+            # Files in subdirectories
+            target_dir="release_pdfs/$dir_name"
+            pdf_path="$target_dir/$base_name.pdf"
+          fi
+          
+          # Create the target directory structure within release_pdfs
+          mkdir -p "$target_dir"
+          
+          echo "Converting '$clean_md_file' to '$pdf_path'..."
+          # Attempt conversion with Pandoc (xelatex engine for better Unicode/font support)
+          if pandoc "$clean_md_file" --pdf-engine=xelatex -o "$pdf_path"; then
+            echo "Successfully converted '$clean_md_file' with Pandoc (xelatex)"
+            SUCCESS_COUNT=$((SUCCESS_COUNT + 1))
+          else
+            # Fallback to wkhtmltopdf if pandoc with xelatex fails
+            echo "Pandoc (xelatex) failed for '$clean_md_file'. Trying wkhtmltopdf..."
+            html_temp_path="$target_dir/$base_name.html" # Temporary HTML file
+            if pandoc "$clean_md_file" -s -o "$html_temp_path"; then # Convert MD to HTML
+              if wkhtmltopdf "$html_temp_path" "$pdf_path"; then
+                echo "Successfully converted '$clean_md_file' with wkhtmltopdf"
+                SUCCESS_COUNT=$((SUCCESS_COUNT + 1))
+              else
+                echo "ERROR: wkhtmltopdf also failed for '$clean_md_file'"
+                FAIL_COUNT=$((FAIL_COUNT + 1))
+                FAILED_FILES_LIST="${FAILED_FILES_LIST}${clean_md_file}\n"
+              fi
+              rm -f "$html_temp_path" # Clean up temporary HTML
+            else
+              echo "ERROR: Pandoc (MD to HTML) failed for '$clean_md_file'"
+              FAIL_COUNT=$((FAIL_COUNT + 1))
+              FAILED_FILES_LIST="${FAILED_FILES_LIST}${clean_md_file}\n"
+            fi
+          fi
+        done
+        
+        echo "----------------------------------------"
+        echo "Conversion Summary:"
+        echo "Successfully converted: $SUCCESS_COUNT files"
+        echo "Failed to convert: $FAIL_COUNT files"
+        if [ "$FAIL_COUNT" -gt 0 ]; then
+          echo -e "Failed files list:\n$FAILED_FILES_LIST"
+        fi
+        
+        echo "success_count=$SUCCESS_COUNT" >> $GITHUB_OUTPUT
+        echo "fail_count=$FAIL_COUNT" >> $GITHUB_OUTPUT
+        
+        if [ "$FAIL_COUNT" -gt 0 ]; then
+          echo "There were conversion failures."
+          # To fail the workflow on any conversion error, uncomment the next line:
+          # exit 1
+        fi
+
+    - name: List generated PDFs (for debugging)
+      if: always() # Run even if previous steps fail, to see what was made
+      run: |
+        echo "Contents of release_pdfs directory:"
+        ls -R release_pdfs
+
+    - name: Check if any PDFs were created
+      id: check_pdfs
+      run: |
+        pdf_count=$(find release_pdfs -type f -name "*.pdf" -print | wc -l)
+        if [ "$pdf_count" -eq 0 ]; then
+          echo "No PDF files were generated. Skipping zip and release."
+          echo "has_pdfs=false" >> $GITHUB_OUTPUT
+        else
+          echo "$pdf_count PDF files found. Proceeding with zip and release."
+          echo "has_pdfs=true" >> $GITHUB_OUTPUT
+        fi
+
+    - name: Create ZIP file
+      if: steps.check_pdfs.outputs.has_pdfs == 'true'
+      id: zip_files
+      run: |
+        cd release_pdfs
+        zip -r ../resumes_pdfs.zip .
+        cd ..
+        echo "Successfully created resumes_pdfs.zip"
+        echo "zip_name=resumes_pdfs.zip" >> $GITHUB_OUTPUT
+
+    - name: Create Release
+      if: steps.check_pdfs.outputs.has_pdfs == 'true' && steps.convert_md_to_pdf.outputs.fail_count == '0'
+      uses: softprops/action-gh-release@v1
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      with:
+        tag_name: release-${{ github.run_number }}
+        name: Release ${{ github.run_number }} (PDFs)
+        body: |
+          Automated release of PDF resumes and job descriptions.
+          Commit: `${{ github.sha }}`
+          Successfully converted files: ${{ steps.convert_md_to_pdf.outputs.success_count }}
+        draft: false
+        prerelease: false
+        files: ${{ steps.zip_files.outputs.zip_name }}
+
+    - name: Handle no PDFs or conversion failures for release
+      if: steps.check_pdfs.outputs.has_pdfs == 'false' || (steps.convert_md_to_pdf.outputs.fail_count != '0')
+      run: |
+        echo "Skipping GitHub Release due to issues."
+        if [ "${{ steps.check_pdfs.outputs.has_pdfs }}" == "false" ]; then
+          echo "Reason: No PDF files were generated."
+        fi
+        if [ "${{ steps.convert_md_to_pdf.outputs.fail_count }}" != "0" ]; then
+          echo "Reason: There were ${{ steps.convert_md_to_pdf.outputs.fail_count }} Markdown to PDF conversion failures."
+        fi
