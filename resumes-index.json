@@ -9,332 +9,482 @@
   "categories": {
     "Category Manager": [
       {
-        "name": "Emily Chen",
-        "title": "Category Manager",
-        "experience_years": 3
-      },
-      {
-        "name": "James Rodriguez",
+        "name": "Anika Sharma",
         "title": "Senior Category Manager",
-        "experience_years": 8
+        "experience_years": 8,
+        "match": "excellent"
       },
       {
-        "name": "Sarah Thompson",
+        "name": "Jack Wilson",
         "title": "Category Manager",
-        "experience_years": 5
+        "experience_years": 7,
+        "match": "good"
       },
       {
-        "name": "Michael Park",
-        "title": "Category Manager",
-        "experience_years": 2
+        "name": "Mei Lin",
+        "title": "Category Management Specialist",
+        "experience_years": 5,
+        "match": "moderate"
+      },
+      {
+        "name": "Omar Abbasi",
+        "title": "Customer Service & Administrative Assistant",
+        "experience_years": 2,
+        "match": "no fit"
       }
-    ],
-    "Client Experience Manager": [
+    ],    "Client Experience Manager": [
       {
-        "name": "Alexandra Mitchell",
-        "title": "Client Experience Manager",
-        "experience_years": 6
-      },
-      {
-        "name": "David Kumar",
+        "name": "Charlotte Davis",
         "title": "Senior Client Experience Manager",
-        "experience_years": 9
+        "experience_years": 8,
+        "match": "excellent"
       },
       {
-        "name": "Jennifer Lee",
+        "name": "Ben Nguyen",
         "title": "Client Experience Manager",
-        "experience_years": 4
+        "experience_years": 6,
+        "match": "good"
       },
       {
-        "name": "Robert Wilson",
-        "title": "Client Experience Manager",
-        "experience_years": 7
+        "name": "Zara Khan",
+        "title": "Client Experience Coordinator",
+        "experience_years": 4,
+        "match": "moderate"
+      },
+      {
+        "name": "Lucas Brown",
+        "title": "Customer Service Assistant",
+        "experience_years": 2,
+        "match": "no fit"
       }
-    ],
-    "Cloud Architects": [
+    ],    "Cloud Architects": [
       {
-        "name": "Daniel Smith",
+        "name": "Aisha Ibrahim",
         "title": "Cloud Architect",
-        "experience_years": 7
+        "experience_years": 9,
+        "match": "excellent"
       },
       {
-        "name": "Lisa Wang",
-        "title": "Senior Cloud Architect",
-        "experience_years": 10
+        "name": "Ethan Taylor",
+        "title": "Cloud Architect",
+        "experience_years": 6,
+        "match": "good"
       },
       {
-        "name": "Mark Johnson",
+        "name": "Kenji Tanaka",
         "title": "Cloud Architect",
-        "experience_years": 5
+        "experience_years": 4,
+        "match": "moderate"
       },
       {
-        "name": "Priya Patel",
-        "title": "Cloud Architect",
-        "experience_years": 6
+        "name": "Sofia Rossi",
+        "title": "Cloud Engineer",
+        "experience_years": 3,
+        "match": "no fit"
       }
     ],
     "Data Engineers": [
       {
-        "name": "Andrew Brown",
-        "title": "Data Engineer",
-        "experience_years": 4
+        "name": "Fatima Ali",
+        "title": "Lead Data Engineer",
+        "experience_years": 9,
+        "match": "excellent"
       },
       {
-        "name": "Jessica Liu",
+        "name": "Noah Williams",
         "title": "Senior Data Engineer",
-        "experience_years": 8
+        "experience_years": 7,
+        "match": "good"
       },
       {
-        "name": "Kevin O'Connor",
+        "name": "Isabella Costa",
         "title": "Data Engineer",
-        "experience_years": 3
+        "experience_years": 4,
+        "match": "moderate"
       },
       {
-        "name": "Rachel Green",
-        "title": "Data Engineer",
-        "experience_years": 6
+        "name": "David Miller",
+        "title": "IT Support Analyst",
+        "experience_years": 2,
+        "match": "no fit"
       }
-    ],
-    "DevOps Engineers": [
+    ],    "DevOps Engineers": [
       {
         "name": "Alex Thompson",
         "title": "DevOps Engineer",
-        "experience_years": 5
+        "experience_years": 5,
+        "match": "moderate"
       },
       {
         "name": "Maria Rodriguez",
         "title": "Senior DevOps Engineer",
-        "experience_years": 8
+        "experience_years": 8,
+        "match": "excellent"
       },
       {
         "name": "James Wilson",
         "title": "DevOps Engineer",
-        "experience_years": 4
+        "experience_years": 4,
+        "match": "moderate"
       },
       {
         "name": "Sarah Chen",
         "title": "DevOps Engineer",
-        "experience_years": 6
+        "experience_years": 6,
+        "match": "good"
       }
-    ],
-    "E-commerce Manager": [
+    ],"E-commerce Manager": [
       {
-        "name": "Amanda Taylor",
-        "title": "E-commerce Manager",
-        "experience_years": 5
+        "name": "Priya Singh",
+        "title": "E-commerce Manager / Digital Retail Strategist",
+        "experience_years": 9,
+        "match": "excellent"
       },
       {
-        "name": "Chris Anderson",
-        "title": "Senior E-commerce Manager",
-        "experience_years": 9
+        "name": "Liam Chen",
+        "title": "E-commerce Operations Manager",
+        "experience_years": 7,
+        "match": "good"
       },
       {
-        "name": "Nicole Davis",
-        "title": "E-commerce Manager",
-        "experience_years": 4
+        "name": "Olivia Garcia",
+        "title": "E-commerce Coordinator",
+        "experience_years": 4,
+        "match": "moderate"
       },
       {
-        "name": "Steven Martinez",
-        "title": "E-commerce Manager",
-        "experience_years": 7
+        "name": "Mohammed Hassan",
+        "title": "Retail Sales Assistant",
+        "experience_years": 2,
+        "match": "no fit"
       }
-    ],
-    "Finance Manager": [
+    ],    "Finance Manager": [
       {
         "name": "Robert Kim",
         "title": "Finance Manager",
-        "experience_years": 7
+        "experience_years": 7,
+        "match": "good"
       },
       {
         "name": "Jennifer Walsh",
         "title": "Senior Finance Manager",
-        "experience_years": 10
+        "experience_years": 10,
+        "match": "excellent"
       },
       {
         "name": "Michael Brown",
         "title": "Finance Manager",
-        "experience_years": 5
+        "experience_years": 5,
+        "match": "moderate"
       },
       {
         "name": "Lisa Patel",
         "title": "Finance Manager",
-        "experience_years": 6
+        "experience_years": 6,
+        "match": "good"
       }
-    ],
-    "Full Stack Developers": [
+    ],    "Full Stack Developers": [
       {
         "name": "Emma Johnson",
         "title": "Full Stack Developer",
-        "experience_years": 4
+        "experience_years": 4,
+        "match": "moderate"
       },
       {
         "name": "David Lee",
         "title": "Senior Full Stack Developer",
-        "experience_years": 8
+        "experience_years": 8,
+        "match": "excellent"
       },
       {
         "name": "Sophie Miller",
         "title": "Full Stack Developer",
-        "experience_years": 3
+        "experience_years": 3,
+        "match": "moderate"
       },
       {
         "name": "Ryan Garcia",
         "title": "Full Stack Developer",
-        "experience_years": 5
+        "experience_years": 5,
+        "match": "moderate"
       }
-    ],
-    "Marketing Manager": [
+    ],    "Marketing Manager": [
       {
         "name": "Jessica Taylor",
         "title": "Marketing Manager",
-        "experience_years": 6
+        "experience_years": 6,
+        "match": "good"
       },
       {
         "name": "Matthew Davis",
         "title": "Senior Marketing Manager",
-        "experience_years": 9
+        "experience_years": 9,
+        "match": "excellent"
       },
       {
         "name": "Lauren White",
         "title": "Marketing Manager",
-        "experience_years": 4
+        "experience_years": 4,
+        "match": "moderate"
       },
       {
         "name": "Daniel Evans",
         "title": "Marketing Manager",
-        "experience_years": 7
+        "experience_years": 7,
+        "match": "good"
       }
-    ],
-    "Merchandise Planner": [
+    ],"Merchandise Planner": [
       {
-        "name": "Catherine White",
-        "title": "Merchandise Planner",
-        "experience_years": 4
-      },
-      {
-        "name": "Jason Kim",
+        "name": "Emily Jones",
         "title": "Senior Merchandise Planner",
-        "experience_years": 8
+        "experience_years": 9,
+        "match": "excellent"
       },
       {
-        "name": "Laura Adams",
+        "name": "Ryan Lee",
         "title": "Merchandise Planner",
-        "experience_years": 3
+        "experience_years": 6,
+        "match": "good"
       },
       {
-        "name": "Thomas Clarke",
-        "title": "Merchandise Planner",
-        "experience_years": 6
+        "name": "Ava Rodriguez",
+        "title": "Merchandise Planning Assistant",
+        "experience_years": 3,
+        "match": "moderate"
+      },
+      {
+        "name": "Ahmed Al Farsi",
+        "title": "Retail Assistant",
+        "experience_years": 2,
+        "match": "no fit"
       }
-    ],
-    "Procurement Manager": [
+    ],    "Procurement Manager": [
       {
-        "name": "Helen Wright",
-        "title": "Procurement Manager",
-        "experience_years": 7
+        "name": "Mia Wilson",
+        "title": "Procurement Manager / Strategic Sourcing Leader",
+        "experience_years": 10,
+        "match": "excellent"
       },
       {
-        "name": "Matthew Scott",
-        "title": "Senior Procurement Manager",
-        "experience_years": 11
+        "name": "Samuel Kim",
+        "title": "Procurement Specialist",
+        "experience_years": 7,
+        "match": "good"
       },
       {
-        "name": "Olivia Turner",
-        "title": "Procurement Manager",
-        "experience_years": 5
+        "name": "Charlotte Dubois",
+        "title": "Procurement Analyst",
+        "experience_years": 4,
+        "match": "moderate"
       },
       {
-        "name": "Peter Hughes",
-        "title": "Procurement Manager",
-        "experience_years": 4
+        "name": "Wei Zhang",
+        "title": "Administrative Assistant",
+        "experience_years": 2,
+        "match": "no fit"
       }
-    ],
-    "Product Manager": [
+    ],    "Product Manager": [
       {
-        "name": "Amanda Rodriguez",
+        "name": "Zoe Walker",
+        "title": "Senior Product Manager / Digital Innovation Leader",
+        "experience_years": 10,
+        "match": "excellent"
+      },
+      {
+        "name": "Daniel Nguyen",
         "title": "Product Manager",
-        "experience_years": 5
+        "experience_years": 7,
+        "match": "good"
       },
       {
-        "name": "Benjamin Clark",
-        "title": "Senior Product Manager",
-        "experience_years": 8
+        "name": "Grace O'Connell",
+        "title": "Product Analyst",
+        "experience_years": 4,
+        "match": "moderate"
       },
       {
-        "name": "Chloe Anderson",
-        "title": "Product Manager",
-        "experience_years": 4
-      },
-      {
-        "name": "Ethan Wilson",
-        "title": "Product Manager",
-        "experience_years": 6
+        "name": "Marcus Adebayo",
+        "title": "IT Support Analyst",
+        "experience_years": 2,
+        "match": "no fit"
       }
-    ],
-    "QA Engineers": [
+    ],    "QA Engineers": [
       {
-        "name": "Grace Cooper",
-        "title": "QA Engineer",
-        "experience_years": 3
+        "name": "Lily Chen",
+        "title": "Senior QA Engineer / Automation & Agile Testing Leader",
+        "experience_years": 9,
+        "match": "excellent"
       },
       {
-        "name": "Nathan Bell",
-        "title": "Senior QA Engineer",
-        "experience_years": 8
+        "name": "Thomas Brown",
+        "title": "QA Engineer",
+        "experience_years": 6,
+        "match": "good"
       },
       {
-        "name": "Samantha Morgan",
-        "title": "QA Engineer",
-        "experience_years": 5
+        "name": "Hannah Goldstein",
+        "title": "QA Analyst",
+        "experience_years": 4,
+        "match": "moderate"
       },
       {
-        "name": "William Foster",
-        "title": "QA Engineer",
-        "experience_years": 4
+        "name": "Javier Fernandez",
+        "title": "IT Support Analyst",
+        "experience_years": 2,
+        "match": "no fit"
+      }    ],
+    "Retail Accountant": [
+      {
+        "name": "Isabella Smith",
+        "title": "Senior Retail Accountant",
+        "experience_years": 10,
+        "match": "excellent"
+      },
+      {
+        "name": "William Davis",
+        "title": "Retail Accountant",
+        "experience_years": 7,
+        "match": "good"
+      },
+      {
+        "name": "Chloe Park",
+        "title": "Accounts Assistant",
+        "experience_years": 3,
+        "match": "moderate"
+      },
+      {
+        "name": "Abdul Rahman",
+        "title": "Retail Assistant",
+        "experience_years": 2,
+        "match": "no fit"
       }
-    ],
-    "Security Engineers": [
+    ],    "Security Engineers": [
       {
-        "name": "Benjamin Harris",
-        "title": "Security Engineer",
-        "experience_years": 6
-      },
-      {
-        "name": "Emma Watson",
+        "name": "Sophie Johnson",
         "title": "Senior Security Engineer",
-        "experience_years": 9
+        "experience_years": 10,
+        "match": "excellent"
       },
       {
-        "name": "Jacob Miller",
+        "name": "James Wilson",
         "title": "Security Engineer",
-        "experience_years": 4
+        "experience_years": 7,
+        "match": "good"
       },
       {
-        "name": "Sophie Evans",
-        "title": "Security Engineer",
-        "experience_years": 7
+        "name": "Ella Lee",
+        "title": "Security Analyst",
+        "experience_years": 4,
+        "match": "moderate"
+      },
+      {
+        "name": "Ricardo Silva",
+        "title": "IT Support Analyst",
+        "experience_years": 2,
+        "match": "no fit"
+      }
+    ],    "Senior Sales Manager": [
+      {
+        "name": "Ava Anderson",
+        "title": "Senior Regional Sales Manager",
+        "experience_years": 12,
+        "match": "excellent"
+      },
+      {
+        "name": "Carlos Gomez",
+        "title": "Senior Sales Manager",
+        "experience_years": 8,
+        "match": "good"
+      },
+      {
+        "name": "Lucas Petrov",
+        "title": "Sales Manager",
+        "experience_years": 6,
+        "match": "moderate"
+      },
+      {
+        "name": "Mia Schmidt",
+        "title": "Sales Team Lead",
+        "experience_years": 5,
+        "match": "no fit"
       }
     ],
-    "Senior Sales Manager": [
+    "Social Media Specialist": [
       {
-        "name": "Isabella Garcia",
-        "title": "Senior Sales Manager",
-        "experience_years": 10
+        "name": "Emily Nguyen",
+        "title": "Social Media Specialist",
+        "experience_years": 4,
+        "match": "excellent"
       },
       {
-        "name": "Lucas Thompson",
-        "title": "Senior Sales Manager",
-        "experience_years": 12
+        "name": "Jacob O'Connor",
+        "title": "Digital Marketing Coordinator",
+        "experience_years": 3,
+        "match": "good"
       },
       {
-        "name": "Megan Phillips",
-        "title": "Senior Sales Manager",
-        "experience_years": 8
+        "name": "Samuel Okeke",
+        "title": "Social Media Assistant",
+        "experience_years": 2,
+        "match": "moderate"
       },
       {
-        "name": "Ryan Campbell",
-        "title": "Senior Sales Manager",
-        "experience_years": 9
+        "name": "Priyanka Patel",
+        "title": "Marketing Graduate",
+        "experience_years": 1,
+        "match": "no fit"
+      }
+    ],
+    "Sr. Manager - Customer Support": [
+      {
+        "name": "Isla McGregor",
+        "title": "Customer Support Supervisor",
+        "experience_years": 6,
+        "match": "excellent"
+      },
+      {
+        "name": "Kenichi Sato",
+        "title": "Team Lead - Customer Support",
+        "experience_years": 5,
+        "match": "good"
+      },
+      {
+        "name": "Noah Schneider",
+        "title": "Customer Support Specialist",
+        "experience_years": 3,
+        "match": "moderate"
+      },
+      {
+        "name": "Olivia Martin",
+        "title": "Customer Service Representative",
+        "experience_years": 2,
+        "match": "no fit"
+      }
+    ],
+    "UI/UX Designers": [
+      {
+        "name": "Isabella Tran",
+        "title": "Senior UI/UX Designer",
+        "experience_years": 5,
+        "match": "excellent"
+      },
+      {
+        "name": "Ethan Williams",
+        "title": "UI/UX Designer",
+        "experience_years": 3,
+        "match": "good"
+      },
+      {
+        "name": "Amina Yusuf",
+        "title": "Junior UX Designer",
+        "experience_years": 2,
+        "match": "moderate"
+      },
+      {
+        "name": "Raj Patel",
+        "title": "Graphic Design Student",
+        "experience_years": 1,
+        "match": "no fit"
       }
     ]
   }
