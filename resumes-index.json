@@ -1,0 +1,341 @@
+{
+  "repository": {
+    "name": "Synthetic Resumes Collection",
+    "description": "A collection of synthetic/fictional resumes and job descriptions organized by professional roles",
+    "total_categories": 15,
+    "total_resumes": 60,
+    "last_updated": "2025-05-29"
+  },
+  "categories": {
+    "Category Manager": [
+      {
+        "name": "Emily Chen",
+        "title": "Category Manager",
+        "experience_years": 3
+      },
+      {
+        "name": "James Rodriguez",
+        "title": "Senior Category Manager",
+        "experience_years": 8
+      },
+      {
+        "name": "Sarah Thompson",
+        "title": "Category Manager",
+        "experience_years": 5
+      },
+      {
+        "name": "Michael Park",
+        "title": "Category Manager",
+        "experience_years": 2
+      }
+    ],
+    "Client Experience Manager": [
+      {
+        "name": "Alexandra Mitchell",
+        "title": "Client Experience Manager",
+        "experience_years": 6
+      },
+      {
+        "name": "David Kumar",
+        "title": "Senior Client Experience Manager",
+        "experience_years": 9
+      },
+      {
+        "name": "Jennifer Lee",
+        "title": "Client Experience Manager",
+        "experience_years": 4
+      },
+      {
+        "name": "Robert Wilson",
+        "title": "Client Experience Manager",
+        "experience_years": 7
+      }
+    ],
+    "Cloud Architects": [
+      {
+        "name": "Daniel Smith",
+        "title": "Cloud Architect",
+        "experience_years": 7
+      },
+      {
+        "name": "Lisa Wang",
+        "title": "Senior Cloud Architect",
+        "experience_years": 10
+      },
+      {
+        "name": "Mark Johnson",
+        "title": "Cloud Architect",
+        "experience_years": 5
+      },
+      {
+        "name": "Priya Patel",
+        "title": "Cloud Architect",
+        "experience_years": 6
+      }
+    ],
+    "Data Engineers": [
+      {
+        "name": "Andrew Brown",
+        "title": "Data Engineer",
+        "experience_years": 4
+      },
+      {
+        "name": "Jessica Liu",
+        "title": "Senior Data Engineer",
+        "experience_years": 8
+      },
+      {
+        "name": "Kevin O'Connor",
+        "title": "Data Engineer",
+        "experience_years": 3
+      },
+      {
+        "name": "Rachel Green",
+        "title": "Data Engineer",
+        "experience_years": 6
+      }
+    ],
+    "DevOps Engineers": [
+      {
+        "name": "Alex Thompson",
+        "title": "DevOps Engineer",
+        "experience_years": 5
+      },
+      {
+        "name": "Maria Rodriguez",
+        "title": "Senior DevOps Engineer",
+        "experience_years": 8
+      },
+      {
+        "name": "James Wilson",
+        "title": "DevOps Engineer",
+        "experience_years": 4
+      },
+      {
+        "name": "Sarah Chen",
+        "title": "DevOps Engineer",
+        "experience_years": 6
+      }
+    ],
+    "E-commerce Manager": [
+      {
+        "name": "Amanda Taylor",
+        "title": "E-commerce Manager",
+        "experience_years": 5
+      },
+      {
+        "name": "Chris Anderson",
+        "title": "Senior E-commerce Manager",
+        "experience_years": 9
+      },
+      {
+        "name": "Nicole Davis",
+        "title": "E-commerce Manager",
+        "experience_years": 4
+      },
+      {
+        "name": "Steven Martinez",
+        "title": "E-commerce Manager",
+        "experience_years": 7
+      }
+    ],
+    "Finance Manager": [
+      {
+        "name": "Robert Kim",
+        "title": "Finance Manager",
+        "experience_years": 7
+      },
+      {
+        "name": "Jennifer Walsh",
+        "title": "Senior Finance Manager",
+        "experience_years": 10
+      },
+      {
+        "name": "Michael Brown",
+        "title": "Finance Manager",
+        "experience_years": 5
+      },
+      {
+        "name": "Lisa Patel",
+        "title": "Finance Manager",
+        "experience_years": 6
+      }
+    ],
+    "Full Stack Developers": [
+      {
+        "name": "Emma Johnson",
+        "title": "Full Stack Developer",
+        "experience_years": 4
+      },
+      {
+        "name": "David Lee",
+        "title": "Senior Full Stack Developer",
+        "experience_years": 8
+      },
+      {
+        "name": "Sophie Miller",
+        "title": "Full Stack Developer",
+        "experience_years": 3
+      },
+      {
+        "name": "Ryan Garcia",
+        "title": "Full Stack Developer",
+        "experience_years": 5
+      }
+    ],
+    "Marketing Manager": [
+      {
+        "name": "Jessica Taylor",
+        "title": "Marketing Manager",
+        "experience_years": 6
+      },
+      {
+        "name": "Matthew Davis",
+        "title": "Senior Marketing Manager",
+        "experience_years": 9
+      },
+      {
+        "name": "Lauren White",
+        "title": "Marketing Manager",
+        "experience_years": 4
+      },
+      {
+        "name": "Daniel Evans",
+        "title": "Marketing Manager",
+        "experience_years": 7
+      }
+    ],
+    "Merchandise Planner": [
+      {
+        "name": "Catherine White",
+        "title": "Merchandise Planner",
+        "experience_years": 4
+      },
+      {
+        "name": "Jason Kim",
+        "title": "Senior Merchandise Planner",
+        "experience_years": 8
+      },
+      {
+        "name": "Laura Adams",
+        "title": "Merchandise Planner",
+        "experience_years": 3
+      },
+      {
+        "name": "Thomas Clarke",
+        "title": "Merchandise Planner",
+        "experience_years": 6
+      }
+    ],
+    "Procurement Manager": [
+      {
+        "name": "Helen Wright",
+        "title": "Procurement Manager",
+        "experience_years": 7
+      },
+      {
+        "name": "Matthew Scott",
+        "title": "Senior Procurement Manager",
+        "experience_years": 11
+      },
+      {
+        "name": "Olivia Turner",
+        "title": "Procurement Manager",
+        "experience_years": 5
+      },
+      {
+        "name": "Peter Hughes",
+        "title": "Procurement Manager",
+        "experience_years": 4
+      }
+    ],
+    "Product Manager": [
+      {
+        "name": "Amanda Rodriguez",
+        "title": "Product Manager",
+        "experience_years": 5
+      },
+      {
+        "name": "Benjamin Clark",
+        "title": "Senior Product Manager",
+        "experience_years": 8
+      },
+      {
+        "name": "Chloe Anderson",
+        "title": "Product Manager",
+        "experience_years": 4
+      },
+      {
+        "name": "Ethan Wilson",
+        "title": "Product Manager",
+        "experience_years": 6
+      }
+    ],
+    "QA Engineers": [
+      {
+        "name": "Grace Cooper",
+        "title": "QA Engineer",
+        "experience_years": 3
+      },
+      {
+        "name": "Nathan Bell",
+        "title": "Senior QA Engineer",
+        "experience_years": 8
+      },
+      {
+        "name": "Samantha Morgan",
+        "title": "QA Engineer",
+        "experience_years": 5
+      },
+      {
+        "name": "William Foster",
+        "title": "QA Engineer",
+        "experience_years": 4
+      }
+    ],
+    "Security Engineers": [
+      {
+        "name": "Benjamin Harris",
+        "title": "Security Engineer",
+        "experience_years": 6
+      },
+      {
+        "name": "Emma Watson",
+        "title": "Senior Security Engineer",
+        "experience_years": 9
+      },
+      {
+        "name": "Jacob Miller",
+        "title": "Security Engineer",
+        "experience_years": 4
+      },
+      {
+        "name": "Sophie Evans",
+        "title": "Security Engineer",
+        "experience_years": 7
+      }
+    ],
+    "Senior Sales Manager": [
+      {
+        "name": "Isabella Garcia",
+        "title": "Senior Sales Manager",
+        "experience_years": 10
+      },
+      {
+        "name": "Lucas Thompson",
+        "title": "Senior Sales Manager",
+        "experience_years": 12
+      },
+      {
+        "name": "Megan Phillips",
+        "title": "Senior Sales Manager",
+        "experience_years": 8
+      },
+      {
+        "name": "Ryan Campbell",
+        "title": "Senior Sales Manager",
+        "experience_years": 9
+      }
+    ]
+  }
+}
